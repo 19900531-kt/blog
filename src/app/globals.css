@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Next.jsの開発モードインジケーターを非表示にする */
+#__next-build-watcher,
+[data-nextjs-toast],
+[data-nextjs-dialog] {
+  display: none !important;
+}
